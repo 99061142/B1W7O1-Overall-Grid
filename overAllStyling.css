@@ -1,0 +1,64 @@
+/* Full browser elements */
+
+body{
+	margin: 0px;
+}
+
+.page{
+	width: 1100px;
+}
+
+
+
+
+
+/* Header elements */
+
+.headerBackground{
+	width: 100%;
+  	height: 125px;
+}
+
+.logo{
+	margin-top: 20px;
+}
+
+/* Menu elements in the Header */
+
+.menu{
+	margin-top: 30px;
+	margin-left: 950px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;
+	margin-right: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: arial;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.headerBackground, .logo, .menu{
+	position: absolute;
+}
+
+
+
+
+/* Banner elements */
+
+.bannerBackground{
+	width: 100%;
+  	height: 350px;	
+  	margin-top: 122px;
+}
+
+.bannerBackground{
+	position: absolute;
+}
