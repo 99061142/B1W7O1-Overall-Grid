@@ -20,25 +20,31 @@ body{
 	height: 450px;
 	background-image: url("img/banner_bg.png");
 	background-size: 100% 450px;
+	margin-bottom: 10px;
 }
 
 .threeGridRow{
 	display: grid;
-	height: 450px;
+	height: 200px;
+	padding: 20px 75px;
+	grid-column-gap: 50px;
 	grid-template-columns: auto auto auto;
 }
 
 .gridFadeSlider{
-	background-image: url("img/fade)slider.png");
-	background-color: red;
+	background-image: url("img/fade-slider.png");
+	background-size: 100% 200px;
+	padding-bottom: 100px;
 }
 
 .gridNivoSlider{
-	background-color: grey;
+	background-image: url("img/nivo-slider.png");
+	background-size: 100% 200px;
 }
 
 .gridBonus3dSlider{
-	background-color: blue;
+	background-image: url("img/bonus-3d-slider.png");
+	background-size: 100% 200px;
 }
 
 
@@ -77,6 +83,11 @@ img{
 .bannerParagraph{
 	padding-left: calc(1100px - 300px);
 }
+
+.gridFadeSliderParagraph{
+	padding-top: 50px;
+}
+
 h1{
 	font-size: 26px;
 	line-height: 30px;
