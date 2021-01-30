@@ -1,89 +1,167 @@
-/* Full browser elements */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-body{
+*{
 	margin: 0px;
-	font-family: arial;
 }
 
-.page{
+.styling{
+	margin: 0px auto;
+	font-family: 'Lato', sans-serif;	
 	width: 1100px;
 }
 
 
+/* Divs */
 
-
-/* Header elements */
-
-.headerBackground{
-  	height: 125px;
+.header{
+	height: 125px;
+	background-image: url("img/header_bg.png");
+	background-size: 1.5px;
 }
 
-.logo{
-	margin-top: 20px;
+.banner{
+	height: 450px;
+	background-image: url("img/banner_bg.png");
+	background-size: 100% 450px;
 }
 
-/* Menu elements in the Header */
-
-.menu{
-	margin-top: 30px;
-	margin-left: 925px;
+.footer{
+	height: 50px;
+	background-image: url("img/footer_bg.png");
+	background-size: 100% 50px;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
-ul li a{
+
+
+
+/* Grids */
+
+.gridSliders{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 22px;
+  padding: 40px 55px 0px 55px;
+}
+
+.carInformation, .hoodieImageInformation{
+	display: grid;
+	height: 480px;
+	display: block;
+}
+
+/* menu's */
+
+.menu li a{
 	text-decoration: none;
 	color: black;
-	margin-right: 20px;
 }
 
-ul li{
+.menu li{
+	padding-right: 20px;
+	margin-top: 60px;
 	display: inline-block;
 }
 
 
 
 
-/* Banner elements */
+/* Images */
 
-.bannerBackground{
-	margin-top: 122px;
-  	height: 400px;	
+img{
+	float: left;
 }
 
-.banner{
-	margin-top: 142px;
-	margin-left: 20px;
-	width: 40%;
-	height: 40%;
+.imageLogo {
+	margin: 20px 250px 0px 40px;
+}
+
+.imageBanner{
+	margin: 25px 0px 0px 40px;
+	width: 65%;
+}
+
+.imageFadeSlider{
+	background-image: url("img/fade-slider.png");
+}
+
+.imageNivoSlider{
+	background-image: url("img/nivo-slider.png");
+}
+
+.imageBonus3dSlider{
+	background-image: url("img/bonus-3d-slider.png");
+}
+
+.imageHoodie{
+	height: 480px;
+}
+
+.gridSliderImages{
+	height: 250px;
+  	background-size: 100% 250px;
+}
+
+
+
+
+/* Paragraphs */
+
+.bannerParagraph{
+	padding-left: calc(1100px - 300px);
+}
+
+.gridSliderParagraphs{
+	padding-bottom: 100px;
+}
+
+.WebsiteCreator{
+	padding: 15px 0px;
 }
 
 h1{
-	margin-top: 160px;	
-	margin-left: 650px;
-	color: white;
 	font-size: 26px;
 	line-height: 30px;
+	padding-top: 35px;
+	color: white;
 }
-
-
-
-
-/* Grid elements */
 
 h2{
 	font-size: 20px;
 	line-height: 22px;
 }
 
-
-
-
-/*  */
-
-.headerBackground, .logo, .menu, .bannerBackground, .banner, h1{
-	position: absolute;
+p{
+	font-size: 14px;
+	line-height: 20px;
 }
 
-/* Change the width of the backgrounds */
-.headerBackground, .bannerBackground {
-	width: calc(100% - 50px);
+
+
+
+/* Information */
+
+.carSpecs{
+	float: right;
+	padding-right: 125px;
 }
+
+.carSpecs li, .hoodieInformation li{
+	margin-top: 40px;
+}
+
+.hoodieInformation{
+	float: right;
+	padding-right: 200px;
+}
+
+
+
+
+/* Links for the sliders */
+
+.sliders{
+	margin-top: 20px;
+}
+

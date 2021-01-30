@@ -1,14 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<title>Overall-Grid</title>
- 		<link rel="stylesheet" href="overAllStyling.css">
- 	</head>
+		<title>OverAll-Grid</title>
+		<link rel="stylesheet" href="overAllStyling.css">
+	</head>
 	<body>
-		<div class="page">	
-			<img src="img/header_bg.png" class="headerBackground">
-			<img src="img/logo.png" class="logo">
-			<nav class="menu">
-				<ul>
+		<div class="styling">
+
+  			<div class="header">
+  				<img src="img/logo.png" class="imageLogo" alt="Logo of the website">
+  				<ul class="menu">
 					<li><a href="#">Home</a></li>
 					<li><a href="overAllAutos.html">Auto's</a></li>
 					<li><a href="overAllKleding.html">Kleding</a></li>
@@ -17,19 +18,75 @@
 					<li><a href="#">Shortcodes</a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
-			</nav>
+  			</div>
 
-			<img src="img/banner_bg.png" class="bannerBackground">
-			<img src="img/banner.jpg" class="banner">
+  			<div class="banner">
+  				<img src="img/banner.jpg" class="imageBanner" alt="Image in the banner">
+  				<div class="bannerParagraph">
+  					<h1>Let's talk business</h1>
+  					<p>
+  						Lorem ipsum dolor sit amet, consectetur<br>
+  						adipiscing elit. Nullam imperdiet 
+  						rhoncus<br>
+  						mollis. Vestibulum id ex lobortis, 
+  						<br><br> 
+  						interdum orci id, sagittis est. Quisque vitae<br> 
+  						enim orci. Quisque faucibus lorem purus, ac interdum quam hendrerit nec. Proin cursus<br> 
+  						dui, elementum vehicula eros aliquam ut. 
+  						<br><br> 
+  						Praesent dictum enim vel sodales interdum. 
+  						Nullam vulputate magna felis, varius sodales elit eros
+  						vel. In tincidunt ultricies augue<br> 
+  						mollis, Vestibulum id ex lobortis. 
+  					</p>
+  				</div>
+  			</div>
 
-			<h1>Let's talk business</h1>
-			<div class="grid-container">
-  				<div class="grid-item">1</div>
-  				<div class="grid-item">2</div>
-  				<div class="grid-item">3</div>
-  				<div class="grid-item">4</div>
- 			 	<div class="grid-item">5</div>
-			 	<div class="grid-item">6</div>
+			<div class="gridSliders">
+
+  				<div class="gridSliderImages imageFadeSlider"></div>
+  				<div class="gridSliderImages imageNivoSlider"></div>
+ 				<div class="gridSliderImages imageBonus3dSlider"></div>  
+
+  				<div class="gridSliderParagraphs">
+  					<h2>Professional Fade Slider</h2>
+  					<p>
+  					  	Lorem ipsum dolor sit amet, consectetur<br>
+  						adipiscing elit. Nullam imperdiet rhoncus<br>
+  						mollis. Vestibulum id ex lobortis, amet<br> 
+  						Lorem ipsum dolor amet, consectetur<br>
+  						adipiscing elit. Nullam imperdiet 
+  					</p>
+  					<ul class="sliders"><li><a href="#">Click for fade slider</a></li></ul>
+  				</div>
+
+  				<div class="gridSliderParagraphs">
+  					<h2>Awesome Nivo Slider</h2>
+  					<p>
+  						Lorem ipsum dolor sit amet, consectetur<br>
+  						adipiscing elit. Nullam imperdiet rhoncus<br>
+  						mollis. Vestibulum id ex lobortis, amet<br> 
+  						Lorem ipsum dolor amet, consectetur<br>
+  						adipiscing elit. 
+  					</p>
+  					<ul class="sliders"><li><a href="#">Click for nivo slider</a></li></ul>
+  				</div>
+
+  				<div class="gridSliderParagraphs">
+  					<h2>OverALL Bonus 3D Slider!</h2>
+  					<p>
+  					  	Lorem ipsum dolor sit amet, consectetur<br>
+  						adipiscing elit. Nullam imperdiet rhoncus<br>
+  						mollis. Vestibulum id ex lobortis, amet<br> 
+  						Lorem ipsum dolor amet, consectetur<br>
+  						adipiscing elit. Nullam imperdiet 
+  					</p>
+  					<ul class="sliders"><li><a href="#">Click for bonus slider</a></li></ul>
+  				</div>  
+			</div>
+
+			<div class="footer">
+				<p class="WebsiteCreator">This website was put together by Xander Briem</p>
 			</div>
 		</div>
 	</body>
